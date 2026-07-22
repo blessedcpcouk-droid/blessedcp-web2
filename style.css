@@ -132,3 +132,54 @@ footer{
     text-align:center;
     padding:20px;
 }
+/* ===== FAQ ===== */
+
+.faq{
+    padding:80px 0;
+    background:#f8fafc;
+}
+
+.faq h2{
+    text-align:center;
+    font-size:36px;
+    color:#0b5cab;
+    margin-bottom:40px;
+}
+
+.faq details{
+    background:#fff;
+    margin:20px auto;
+    max-width:900px;
+    border-radius:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    overflow:hidden;
+}
+
+.faq summary{
+    padding:20px;
+    font-size:20px;
+    font-weight:600;
+    cursor:pointer;
+    list-style:none;
+}
+
+.faq summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq summary::after{
+    content:"+";
+    float:right;
+    font-size:28px;
+    color:#0b5cab;
+}
+
+.faq details[open] summary::after{
+    content:"−";
+}
+
+.faq details p{
+    padding:0 20px 20px;
+    line-height:1.8;
+    color:#555;
+}
