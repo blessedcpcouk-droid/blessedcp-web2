@@ -384,4 +384,17 @@ nav{
 .btn{
     padding:14px 30px;
 }
+.personal-hero{
+    background:
+        linear-gradient(rgba(11,92,171,0.65), rgba(11,92,171,0.65)),
+        url("images/personal-care.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    color:#fff;
+}
 
+.personal-hero h1,
+.personal-hero p{
+    color:#fff;
+}
