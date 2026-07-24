@@ -516,3 +516,46 @@ footer{
     line-height:1.8;
     color:#d9e6f5;
 }
+/* ==========================
+PERSONAL HERO
+========================== */
+
+.personal-hero{
+    background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("personal-care.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height:650px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.personal-hero h1{
+    color:#fff;
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.personal-hero p{
+    color:#fff;
+    font-size:22px;
+    max-width:800px;
+    margin:0 auto 30px;
+}
+
+.personal-hero .btn{
+    background:#ffffff;
+    color:#0b5cab;
+    font-weight:bold;
+}
+
+.personal-hero .btn:hover{
+    background:#f0f0f0;
+}
