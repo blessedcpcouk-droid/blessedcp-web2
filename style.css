@@ -157,13 +157,7 @@ SERVICES / BENEFITS
     gap:30px;
 }
 
-.card{
-    background:#fff;
-    border-radius:12px;
-    padding:35px;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
-    transition:.3s;
-}
+
 
 .card:hover{
     transform:translateY(-8px);
@@ -361,7 +355,17 @@ nav{
 }
 
 .card{
-    padding:25px;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+
+    height:100%;
 }
 
 .faq summary{
@@ -390,18 +394,7 @@ nav{
     gap:30px;
 }
 
-.card{
-    background:#fff;
-    padding:30px;
-    border-radius:12px;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
 
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
-
-    height:100%;
-}
 
 .personal-hero p{
     color:#fff;
