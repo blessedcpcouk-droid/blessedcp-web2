@@ -401,10 +401,14 @@ nav{
     color:#fff;
 }
 .about-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:50px;
-    align-items:center;
+    display:flex;
+    justify-content:center;
+}
+
+.about-text{
+    max-width:800px;
+    margin:0 auto;
+    text-align:center;
 }
 
 .about-image img{
