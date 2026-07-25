@@ -345,8 +345,8 @@ nav{
 
 }
 
-@media (max-width:768px){
-
+@media (max-width:768px)
+{
 .container{
     width:95%;
 }
@@ -389,17 +389,14 @@ nav{
     padding:14px 30px;
 }
 .personal-hero{
-    background:
-        linear-gradient(rgba(11,92,171,0.65), rgba(11,92,171,0.65)),
+    background:  linear-gradient(rgba(11,92,171,0.65), rgba(11,92,171,0.65)),
        url("personal-care.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
     color:#fff;
 }
-
-
-
+}
 
 
    .cards{
